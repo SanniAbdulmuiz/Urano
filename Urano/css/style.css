@@ -1,0 +1,164 @@
+/* **************** */
+/* Header */
+/* **************** */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+
+  position: relative;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+.main-nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #5454d4;
+  padding: 1rem 2.5rem;
+  transition: all 0.3s;
+}
+
+/* **************** */
+/* Hero */
+/* **************** */
+.section-hero {
+  padding: 9.6rem 0;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img-box {
+  text-align: center;
+}
+
+.download-apps {
+  display: flex;
+  gap: 2rem;
+}
+
+/* **************** */
+/* Section-Features */
+/* **************** */
+.section-features {
+  padding: 9.6rem 0;
+}
+
+.grid.features {
+  column-gap: 3rem;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.lorem {
+  padding-bottom: 1rem;
+  display: inline-block;
+  border-bottom: 3px solid #5454d4;
+}
+
+/* **************** */
+/* Section-lorem */
+/* **************** */
+.section-lorem {
+  padding: 9.6rem 0 4rem 0;
+  background-color: #0b162b;
+}
+
+.lorem-grid {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  column-gap: 4.8rem;
+  row-gap: 9.6rem;
+  align-items: center;
+}
+
+.inte {
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.p-description {
+  font-size: 1.5rem;
+  color: #696871;
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+/* **************** */
+/* Section-video */
+/* **************** */
+
+.video-img {
+  width: 100%;
+  height: 60%;
+}
+
+/* **************** */
+/* Section-showcase */
+/* **************** */
+.section-showcase {
+  padding: 9.6rem 0;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  column-gap: 4rem;
+  row-gap: 9.6rem;
+  align-items: center;
+}
+
+.showcase-img-box img {
+  width: 80%;
+}
+
+.showcase-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 9rem;
+  row-gap: 9.6rem;
+  align-items: center;
+}
+
+.showcase-all {
+  text-align: center;
+}
+
+.showcase-img img {
+  width: 3.5rem;
+}
+
+.showcase-heading-tertiary {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #000;
+  margin: 1.8rem 0 1.2rem 0;
+}
+
+.showcase-p {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  color: #696871;
+}
