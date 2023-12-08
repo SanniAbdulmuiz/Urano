@@ -13,17 +13,19 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/queries.css">
+
+  <script defer src="Js/script.js"></script>
   <title>Urano</title>
 </head>
 
 <body>
-  <header class="header container">
-    <a href="#"><img src="./img/logo.png" alt="logo img"></a>
-    <a class="main-nav-link" href="#">Download app</a>
+  <header class="header container" id="header">
+    <a href="#hero"><img src="./img/logo.png" alt="logo img"></a>
+    <a class="main-nav-link" href="#footer">Download app</a>
   </header>
 
   <main>
-    <section class="section-hero">
+    <section class="section-hero" id="hero">
       <div class="grid grid--2-cols container">
         <div class="hero-text-box">
           <h1 class="heading-primary">Urano .sketch template for free</h1>
@@ -32,9 +34,10 @@
             forever. Open to everyone.
           </p>
           <div class="download-apps">
-            <a href="#"><img src="./img/google-play-badge.png" alt="play sotore image"></a>
-            <a href="#"><img src="./img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
-                alt="Apple store img"></a>
+            <a href="#download"><img class="download-links" src="./img/google-play-badge.png"
+                alt="play sotore image"></a>
+            <a href="#download"><img class="download-links"
+                src="./img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png" alt="Apple store img"></a>
           </div>
         </div>
         <div class="hero-img-box">
@@ -61,19 +64,19 @@
         </div>
       </div>
     </section>
-    <section class="section-lorem">
+    <section class="section-lorem" id="download">
       <div class="container lorem-grid">
         <div>
           <h2 class="inte">"Integer ut ex vitae enim semper"</h2>
           <p class="p-description">Lorem ipsum dolor sit amet consectetur, Non impedit cumque eaque rerum suscipit,
             accusamus officiis saepe! Eligendi elt frier rem veritatis ipsa .</p>
-          <a class="main-nav-link" href="#">Get Started</a>
+          <a class="main-nav-link" href="#header">Get Started</a>
         </div>
       </div>
     </section>
     <section class="section-video">
       <div>
-        <a href="#"><img class="video-img" src="./img/Dark.png" alt="video"></a>
+        <a href="#hero"><img class="video-img" src="./img/Dark.png" alt="video"></a>
       </div>
     </section>
     <section class="section-showcase">
@@ -117,6 +120,52 @@
         </div>
       </div>
     </section>
+    <footer class="section-footer" id="footer">
+      <div class="container">
+        <div class="footer">
+          <h3 class="footer-h">Get started for free</h3>
+          <p class="footer-p">lorem ipsum dolce sit amnet, consectuer adijepiciet elit</p>
+          <a class="main-nav-link foot-mgn" href="#header">Get Started</a>
+        </div>
+        <div class="footer-grid">
+          <nav class="nav-col">
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#hero">Product</a></li>
+              <li><a class="footer-link" href="#hero">Pricing</a></li>
+              <li><a class="footer-link" href="#hero">Docs</a></li>
+              <li><a class="footer-link" href="#hero">Blog</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#hero">Product</a></li>
+              <li><a class="footer-link" href="#hero">Pricing</a></li>
+              <li><a class="footer-link" href="#hero">Docs</a></li>
+              <li><a class="footer-link" href="#hero">Blog</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#hero">Product</a></li>
+              <li><a class="footer-link" href="#hero">Pricing</a></li>
+              <li><a class="footer-link" href="#hero">Docs</a></li>
+              <li><a class="footer-link" href="#hero">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-img">
+          <div class="footer-img-box">
+            <a href="#hero"><img class="footer-a" src="./img/footer-img/a-facebook-white.png" alt="facebook img"></a>
+            <a href="#hero"><img class="footer-a" src="./img/footer-img/a-google-white.png" alt="facebook img"></a>
+            <a href="#hero"><img class="footer-a" src="./img/footer-img/a-linkedin-white.png" alt="facebook img"></a>
+            <a href="#hero"><img class="footer-a" src="./img/footer-img/a-twitter-white.png" alt="facebook img"></a>
+          </div>
+        </div>
+        <p class="copyright">
+          Kidben.com &copy; <span class="year">2019</span>
+        </p>
+      </div>
+    </footer>
   </main>
 </body>
 

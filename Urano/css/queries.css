@@ -1,0 +1,198 @@
+/* Below 992px (tablets) 992px / 16px = 62em*/
+@media (max-width: 62em) {
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.5rem;
+  }
+
+  .download-apps {
+    gap: 1rem;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .paragraph,
+  .p-description,
+  .showcase-p {
+    font-size: 1rem;
+  }
+
+  .grid,
+  .showcase-grid,
+  .showcase-main-grid {
+    row-gap: 4rem;
+  }
+
+  .grid.features {
+    column-gap: 2rem;
+  }
+
+  .showcase-img-box img {
+    width: 70%;
+  }
+}
+
+/* Below 800px (smaller-tablets) 992px / 16px = 62em*/
+@media (max-width: 50em) {
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 4rem;
+  }
+
+  .inte {
+    font-size: 3.8rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.5rem;
+  }
+
+  .showcase-main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .showcase-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img {
+    width: 85%;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-description {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Below 608px (phone) 608px / 16px = 38em*/
+@media (max-width: 38em) {
+  .showcase-main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .download-links {
+    width: 90%;
+  }
+
+
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .main-nav-link {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .section-showcase,
+  .section-footer,
+  .section-features,
+  .section-hero {
+    padding: 5rem 0;
+  }
+
+  .section-lorem {
+    padding: 5rem 0 2rem 0;
+    background-color: #0b162b;
+  }
+
+  .lorem {
+    padding-bottom: 0.5rem;
+  }
+
+  .grid {
+    row-gap: 5rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .inte {
+    font-size: 2rem;
+  }
+
+  .showcase-img-box img {
+    width: 50%;
+  }
+}
+
+/* **************** */
+/* Fixing safari flex-box gap problems in some safari
+/* **************** */
+.no-flexbox-gap .main-nav-list li:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .list-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .list-icon:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .delivered-faces {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .meal-attribute:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.no-flexbox-gap .meal-icon {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .footer-row div:not(:last-child) {
+  margin-right: 6.4rem;
+}
+
+.no-flexbox-gap .social-links li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-nav li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 75em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
+  }
+}
